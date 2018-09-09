@@ -1,0 +1,42 @@
+@padding:10px;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	padding-bottom:60px;
+}
+
+
+.row {
+    display: flex;
+    .column1 {
+        padding: @padding;
+        background-color:#aaa;
+    }
+
+    .column2 {
+        padding: @padding;
+        background-color:#bbb;
+    }
+
+}
+
+
+.author {
+	padding: @padding;
+	background-color:#C0C0C0;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -7px 5px -5px #333;
+    .year {
+        flex: 50%;
+        text-align:right;
+    }
+}
